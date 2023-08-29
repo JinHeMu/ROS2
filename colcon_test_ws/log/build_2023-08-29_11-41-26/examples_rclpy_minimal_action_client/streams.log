@@ -1,0 +1,37 @@
+[1.563s] Invoking command in '/home/jinhemu/ROS2/colcon_test_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_action_client/build install --record /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed
+[1.784s] running egg_info
+[1.801s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[1.802s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[1.802s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[1.802s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[1.802s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[1.835s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.837s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.837s] running build
+[1.837s] running build_py
+[1.838s] running install
+[1.838s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.838s] !!
+[1.838s] 
+[1.838s]         ********************************************************************************
+[1.838s]         Please avoid running ``setup.py`` directly.
+[1.838s]         Instead, use pypa/build, pypa/installer or other
+[1.838s]         standards-based tools.
+[1.838s] 
+[1.838s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.838s]         ********************************************************************************
+[1.839s] 
+[1.839s] !!
+[1.839s]   self.initialize_options()
+[1.845s] running install_lib
+[1.863s] running install_data
+[1.880s] running install_egg_info
+[1.897s] removing '/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.1-py3.10.egg-info' (and everything under it)
+[1.900s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.1-py3.10.egg-info
+[1.901s] running install_scripts
+[2.038s] Installing client script to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.039s] Installing client_asyncio script to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.039s] Installing client_cancel script to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.039s] Installing client_not_composable script to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.039s] writing list of installed files to '/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_action_client/install.log'
+[2.068s] Invoked command in '/home/jinhemu/ROS2/colcon_test_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_action_client/build install --record /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed

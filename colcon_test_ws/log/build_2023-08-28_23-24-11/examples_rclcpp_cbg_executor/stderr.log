@@ -1,0 +1,17 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pong.dir/build.make:76：CMakeFiles/pong.dir/src/pong.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ping.dir/build.make:90：CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/ping.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:104：CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/pong.dir/all] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/ping_pong.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

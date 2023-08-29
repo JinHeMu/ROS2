@@ -1,0 +1,67 @@
+[0.039s] Invoking command in '/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function[0m
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target subscriber_lambda[0m
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_topic_statistics[0m
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_type_adapter[0m
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target subscriber_content_filtering[0m
+[0.176s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[0.177s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[0.193s] [ 16%] Built target subscriber_lambda
+[0.211s] [ 25%] Built target subscriber_member_function
+[0.222s] [ 33%] Built target subscriber_content_filtering
+[0.226s] [ 41%] Built target subscriber_member_function_with_topic_statistics
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target wait_set_subscriber[0m
+[0.244s] [ 50%] Built target subscriber_member_function_with_type_adapter
+[0.248s] [35m[1mConsolidate compiler generated dependencies of target wait_set_subscriber_library[0m
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set_subscriber[0m
+[0.299s] [ 58%] Built target wait_set_subscriber
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target time_triggered_wait_set_subscriber[0m
+[0.312s] [ 75%] Built target wait_set_subscriber_library
+[0.341s] [ 83%] Built target static_wait_set_subscriber
+[0.361s] [ 91%] Built target time_triggered_wait_set_subscriber
+[11.622s] [ 95%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[11.669s] [100%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[11.993s] [100%] Built target subscriber_not_composable
+[12.012s] [100%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[12.021s] Invoked command in '/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[12.059s] Invoking command in '/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber
+[12.065s] -- Install configuration: ""
+[12.065s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[12.066s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber" to ""
+[12.066s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[12.066s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber" to ""
+[12.066s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[12.067s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber" to ""
+[12.067s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[12.075s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so" to ""
+[12.076s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[12.080s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+[12.080s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[12.084s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+[12.084s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[12.088s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics" to ""
+[12.088s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[12.093s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter" to ""
+[12.093s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[12.096s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints" to ""
+[12.096s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[12.099s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+[12.099s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[12.102s] -- Set runtime path of "/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering" to ""
+[12.102s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[12.102s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[12.103s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[12.103s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[12.103s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[12.103s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[12.103s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[12.103s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[12.104s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[12.104s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[12.104s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[12.104s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[12.104s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[12.104s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[12.104s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[12.105s] -- Installing: /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[12.106s] Invoked command in '/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber

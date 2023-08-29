@@ -1,0 +1,36 @@
+[1.894s] Invoking command in '/home/jinhemu/ROS2/colcon_test_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build install --record /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[2.080s] running egg_info
+[2.096s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[2.097s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[2.097s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[2.097s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[2.097s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[2.128s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.129s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.129s] running build
+[2.129s] running build_py
+[2.130s] running install
+[2.130s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.130s] !!
+[2.130s] 
+[2.130s]         ********************************************************************************
+[2.131s]         Please avoid running ``setup.py`` directly.
+[2.131s]         Instead, use pypa/build, pypa/installer or other
+[2.131s]         standards-based tools.
+[2.131s] 
+[2.131s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.131s]         ********************************************************************************
+[2.131s] 
+[2.131s] !!
+[2.131s]   self.initialize_options()
+[2.138s] running install_lib
+[2.153s] running install_data
+[2.167s] running install_egg_info
+[2.182s] removing '/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.10.egg-info' (and everything under it)
+[2.182s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.10.egg-info
+[2.183s] running install_scripts
+[2.315s] Installing publisher_local_function script to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.315s] Installing publisher_member_function script to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.316s] Installing publisher_old_school script to /home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.316s] writing list of installed files to '/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_publisher/install.log'
+[2.352s] Invoked command in '/home/jinhemu/ROS2/colcon_test_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/jinhemu/ROS2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build install --record /home/jinhemu/ROS2/colcon_test_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

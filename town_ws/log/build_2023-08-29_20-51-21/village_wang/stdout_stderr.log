@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[01m[K/home/jinhemu/ROS2/town_ws/src/village_wang/src/wang2.cpp:9:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KSingleDogNode::[m[K’ on member ‘[01m[KSingleDogNode[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    9 |     [01;31m[KSingleDogNode[m[K::SingleDogNode(std::string name):Node(name)
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,10 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/build.make:76：CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:261：CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/subscriber_not_composable.dir/build.make:76：CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:287：CMakeFiles/subscriber_not_composable.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

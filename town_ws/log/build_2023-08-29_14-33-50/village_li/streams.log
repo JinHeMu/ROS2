@@ -1,0 +1,34 @@
+[0.437s] Invoking command in '/home/jinhemu/ROS2/town_ws/src/village_li': PYTHONPATH=/home/jinhemu/ROS2/town_ws/build/village_li/prefix_override:/home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/jinhemu/ROS2/town_ws/build/village_li/build install --record /home/jinhemu/ROS2/town_ws/build/village_li/install.log --single-version-externally-managed
+[0.561s] running egg_info
+[0.569s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.569s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.569s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.569s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.570s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.586s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.586s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.586s] running build
+[0.587s] running build_py
+[0.587s] running install
+[0.587s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.587s] !!
+[0.587s] 
+[0.587s]         ********************************************************************************
+[0.587s]         Please avoid running ``setup.py`` directly.
+[0.587s]         Instead, use pypa/build, pypa/installer or other
+[0.587s]         standards-based tools.
+[0.587s] 
+[0.587s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.587s]         ********************************************************************************
+[0.587s] 
+[0.587s] !!
+[0.587s]   self.initialize_options()
+[0.591s] running install_lib
+[0.599s] running install_data
+[0.607s] running install_egg_info
+[0.618s] removing '/home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[0.619s] Copying ../../build/village_li/village_li.egg-info to /home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.620s] running install_scripts
+[0.700s] Installing li4_node script to /home/jinhemu/ROS2/town_ws/install/village_li/lib/village_li
+[0.700s] writing list of installed files to '/home/jinhemu/ROS2/town_ws/build/village_li/install.log'
+[0.724s] Invoked command in '/home/jinhemu/ROS2/town_ws/src/village_li' returned '0': PYTHONPATH=/home/jinhemu/ROS2/town_ws/build/village_li/prefix_override:/home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/jinhemu/ROS2/town_ws/build/village_li/build install --record /home/jinhemu/ROS2/town_ws/build/village_li/install.log --single-version-externally-managed
