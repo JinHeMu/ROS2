@@ -1,0 +1,10 @@
+[0.216s] Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_wang -- -j12 -l12
+[0.255s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[0.379s] [01m[K/home/jinhemu/ROS2/town_ws/src/village_wang/src/wang2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[0.379s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.380s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.380s] compilation terminated.
+[0.385s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+[0.385s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+[0.385s] gmake: *** [Makefile:146：all] 错误 2
+[0.388s] Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_wang -- -j12 -l12

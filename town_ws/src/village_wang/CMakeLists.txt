@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -25,7 +26,7 @@ ament_package()
 
 add_executable(wang2_node src/wang2.cpp)
 ament_target_dependencies(wang2_node rclcpp)
-
+ament_target_dependencies(wang2_node rclcpp std_msgs)
 install(TARGETS
   wang2_node
   DESTINATION lib/${PROJECT_NAME}

@@ -1,0 +1,15 @@
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/package.dsv
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/package.xml
