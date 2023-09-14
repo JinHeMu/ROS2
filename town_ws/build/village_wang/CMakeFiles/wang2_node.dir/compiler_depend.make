@@ -664,8 +664,24 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp
 
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -903,6 +919,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
 
 /usr/include/c++/11/functional:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp:
+
 /usr/include/asm-generic/errno-base.h:
 
 /opt/ros/humble/include/rmw/rmw/subscription_options.h:
@@ -1126,6 +1144,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
@@ -1743,6 +1763,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
 
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
@@ -1978,6 +2000,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
 
 /opt/ros/humble/include/rmw/rmw/ret_types.h:
 

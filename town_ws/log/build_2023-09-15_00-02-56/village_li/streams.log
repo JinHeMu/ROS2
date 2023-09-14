@@ -1,0 +1,16 @@
+[0.538s] Invoking command in '/home/jinhemu/ROS2/town_ws/src/village_li': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_wang PYTHONPATH=/home/jinhemu/ROS2/town_ws/build/village_li/prefix_override:/home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/jinhemu/ROS2/town_ws/build/village_li/build install --record /home/jinhemu/ROS2/town_ws/build/village_li/install.log --single-version-externally-managed
+[0.784s] running egg_info
+[0.786s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.787s] running build
+[0.787s] running build_py
+[0.787s] copying village_li/li3.py -> /home/jinhemu/ROS2/town_ws/build/village_li/build/lib/village_li
+[0.787s] running install
+[0.787s] running install_lib
+[0.788s] byte-compiling /home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li3.py to li3.cpython-310.pyc
+[0.788s] running install_data
+[0.789s] running install_egg_info
+[0.790s] removing '/home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[0.790s] Copying ../../build/village_li/village_li.egg-info to /home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.790s] running install_scripts
+[0.804s] writing list of installed files to '/home/jinhemu/ROS2/town_ws/build/village_li/install.log'
+[0.820s] Invoked command in '/home/jinhemu/ROS2/town_ws/src/village_li' returned '0': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_wang PYTHONPATH=/home/jinhemu/ROS2/town_ws/build/village_li/prefix_override:/home/jinhemu/ROS2/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/jinhemu/ROS2/town_ws/build/village_li/build install --record /home/jinhemu/ROS2/town_ws/build/village_li/install.log --single-version-externally-managed

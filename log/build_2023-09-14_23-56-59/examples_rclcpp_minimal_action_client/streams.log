@@ -1,0 +1,15 @@
+[0.058s] Invoking command in '/home/jinhemu/ROS2/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/build/examples_rclcpp_minimal_action_client -- -j12 -l12
+[0.166s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[0.166s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[0.175s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[0.187s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[7.039s] gmake[2]: *** [CMakeFiles/action_client_not_composable_with_feedback.dir/build.make:76: CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o] 中断
+[7.040s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/action_client_not_composable_with_feedback.dir/all] 中断
+[7.040s] gmake[2]: *** [CMakeFiles/action_client_not_composable_with_cancel.dir/build.make:76: CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o] 中断
+[7.040s] gmake[2]: *** [CMakeFiles/action_client_not_composable.dir/build.make:76: CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o] 中断
+[7.040s] gmake[2]: *** [CMakeFiles/action_client_member_functions.dir/build.make:76: CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o] 中断
+[7.047s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/action_client_not_composable.dir/all] 中断
+[7.047s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_client_member_functions.dir/all] 中断
+[7.047s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client_not_composable_with_cancel.dir/all] 中断
+[7.047s] gmake: *** [Makefile:146: all] 中断
+[7.198s] Invoked command in '/home/jinhemu/ROS2/build/examples_rclcpp_minimal_action_client' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/build/examples_rclcpp_minimal_action_client -- -j12 -l12

@@ -1,0 +1,2 @@
+Invoking command in '/home/jinhemu/ROS2/build/village_interfaces': /usr/bin/cmake /home/jinhemu/ROS2/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/jinhemu/ROS2/install/village_interfaces
+Invoked command in '/home/jinhemu/ROS2/build/village_interfaces' returned '1': /usr/bin/cmake /home/jinhemu/ROS2/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/jinhemu/ROS2/install/village_interfaces

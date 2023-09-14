@@ -606,4 +606,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp \
+ /home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/sell_novel.hpp \
+ /home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__struct.hpp \
+ /home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__builder.hpp \
+ /home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__traits.hpp

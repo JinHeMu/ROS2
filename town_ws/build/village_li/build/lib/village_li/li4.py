@@ -1,6 +1,13 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String,UInt32
+# 导入服务接口
+from village_interfaces.srv import BorrowMoney
+
+# 导入服务接口
+# 创建服务端回调函数
+# 声明并创建服务端
+# 编写回调函数逻辑处理请求
 
 
 class WriterNode(Node):
@@ -16,6 +23,29 @@ class WriterNode(Node):
 
         self.account = 80
         self.sub_money = self.create_subscription(UInt32, "sexy_girl_money", self.recv_money_callback, 10)
+
+        self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
+    #创建服务端的回调函数
+    def borrow_money_callback(self,request,response):
+
+        # request:来自客户端的请求数据
+        # response:服务端的相应数据
+        # 编写回调函数逻辑处理请求
+
+        self.get_logger().info(f"收到来自:{request.name}的借钱请求,账户目前有:{self.account}")
+
+        if request.money <= self.account * 0.1:
+            response.success = True
+            response.money = request.money
+            self.account = self.account - request.money
+            self.get_logger().info("借钱成功，借出%f,目前还有%d" % (response.money, self.account))
+
+        else:
+            response.success = False
+            response.money = 0
+            self.get_logger().info("对不起，没钱了，不能借你钱了！！！")
+        return response
+
 
     def timer_callback(self):
         msg = String()

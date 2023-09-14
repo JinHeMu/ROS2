@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/home/jinhemu/ROS2/build/village_interfaces': /usr/bin/cmake /home/jinhemu/ROS2/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/jinhemu/ROS2/install/village_interfaces
+[0.021s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.156s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.158s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.162s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.326s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.331s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.376s] Error parsing '/home/jinhemu/ROS2/town_ws/src/village_interfaces/package.xml':
+[0.410s] Traceback (most recent call last):
+[0.410s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.411s]     main()
+[0.411s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.411s]     raise e
+[0.411s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.411s]     package = parse_package_string(
+[0.411s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.415s]     pkg.validate(warnings=warnings)
+[0.415s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.415s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.415s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jinhemu/ROS2/town_ws/src/village_interfaces/package.xml':
+[0.415s] The package "village_interfaces" must not "build_depend" on a package with the same name as this package
+[0.415s] The package "village_interfaces" must not "build_export_depend" on a package with the same name as this package
+[0.415s] The package "village_interfaces" must not "exec_depend" on a package with the same name as this package
+[0.433s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.433s]   execute_process(/usr/bin/python3.10
+[0.433s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.433s]   /home/jinhemu/ROS2/town_ws/src/village_interfaces/package.xml
+[0.433s]   /home/jinhemu/ROS2/build/village_interfaces/ament_cmake_core/package.cmake)
+[0.433s]   returned error code 1
+[0.433s] Call Stack (most recent call first):
+[0.433s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.433s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.434s]   CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)
+[0.434s] 
+[0.434s] [0m
+[0.434s] -- Configuring incomplete, errors occurred!
+[0.434s] See also "/home/jinhemu/ROS2/build/village_interfaces/CMakeFiles/CMakeOutput.log".
+[0.438s] Invoked command in '/home/jinhemu/ROS2/build/village_interfaces' returned '1': /usr/bin/cmake /home/jinhemu/ROS2/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/jinhemu/ROS2/install/village_interfaces

@@ -1,0 +1,8 @@
+[0.050s] Invoking command in '/home/jinhemu/ROS2/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/build/examples_rclcpp_minimal_service -- -j12 -l12
+[6.354s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[7.026s] gmake[2]: *** wait: 没有子进程。 停止。
+[7.028s] gmake[2]: *** 正在等待未完成的任务....
+[7.028s] gmake[2]: *** wait: 没有子进程。 停止。
+[7.028s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/service_main.dir/all] 错误 2
+[7.028s] gmake: *** [Makefile:146: all] 中断
+[7.162s] Invoked command in '/home/jinhemu/ROS2/build/examples_rclcpp_minimal_service' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/build/examples_rclcpp_minimal_service -- -j12 -l12
