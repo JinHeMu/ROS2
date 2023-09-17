@@ -30,7 +30,9 @@ ament_target_dependencies(wang2_node
   village_interfaces
   
   )
-ament_target_dependencies(wang2_node rclcpp std_msgs)
+
+  
+ament_target_dependencies(wang2_node rclcpp std_msgs village_interfaces)
 install(TARGETS
   wang2_node
   DESTINATION lib/${PROJECT_NAME}

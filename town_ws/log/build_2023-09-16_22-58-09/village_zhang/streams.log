@@ -1,0 +1,47 @@
+[0.208s] Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_zhang -- -j12 -l12
+[0.227s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.369s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.370s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.374s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.433s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.433s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.527s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.680s] -- Found village_interfaces: 0.0.0 (/home/jinhemu/ROS2/town_ws/install/village_interfaces/share/village_interfaces/cmake)
+[0.861s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.909s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.909s] -- Configured cppcheck include dirs: 
+[0.909s] -- Configured cppcheck exclude dirs and/or files: 
+[0.909s] -- Added test 'lint_cmake' to check CMake code style
+[0.910s] -- Added test 'uncrustify' to check C / C++ code style
+[0.910s] -- Configured uncrustify additional arguments: 
+[0.910s] -- Added test 'xmllint' to check XML markup files
+[0.911s] -- Configuring done
+[0.919s] -- Generating done
+[0.920s] -- Build files have been written to: /home/jinhemu/ROS2/town_ws/build/village_zhang
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target zhang3_node[0m
+[0.956s] [ 50%] [32m[1mLinking CXX executable zhang3_node[0m
+[1.071s] [100%] Built target zhang3_node
+[1.080s] Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_zhang -- -j12 -l12
+[1.097s] Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/jinhemu/ROS2/town_ws/build/village_zhang
+[1.103s] -- Install configuration: ""
+[1.103s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[1.103s] -- Installing: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[1.103s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[1.103s] -- Installing: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[1.103s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[1.104s] -- Installing: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[1.104s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[1.104s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[1.104s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[1.104s] -- Installing: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[1.104s] -- Installing: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[1.104s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[1.104s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[1.104s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[1.104s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/package.xml
+[1.104s] -- Installing: /home/jinhemu/ROS2/town_ws/install/village_zhang/lib/village_zhang/zhang3_node
+[1.104s] -- Set runtime path of "/home/jinhemu/ROS2/town_ws/install/village_zhang/lib/village_zhang/zhang3_node" to ""
+[1.107s] Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/jinhemu/ROS2/town_ws/build/village_zhang

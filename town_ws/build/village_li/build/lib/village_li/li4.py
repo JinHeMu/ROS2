@@ -25,6 +25,10 @@ class WriterNode(Node):
         self.sub_money = self.create_subscription(UInt32, "sexy_girl_money", self.recv_money_callback, 10)
 
         self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
+
+        self.declare_parameter("writer_timer_period", 5)
+
+
     #创建服务端的回调函数
     def borrow_money_callback(self,request,response):
 
@@ -48,6 +52,11 @@ class WriterNode(Node):
 
 
     def timer_callback(self):
+
+        timer_period = self.get_parameter("writer_timer_period").get_parameter_value().integer_value
+         
+        self.timer.timer_period_ns = timer_period * (1000*1000*1000)
+
         msg = String()
         msg.data  = "第%d回 第%d节" % (self.count, self.count)
         self.pub_novel.publish(msg)
@@ -61,6 +70,6 @@ class WriterNode(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    li4_node = WriterNode("li5")
+    li4_node = WriterNode("li4")
     rclpy.spin(li4_node)
     rclpy.shutdown()

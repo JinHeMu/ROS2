@@ -1,0 +1,22 @@
+[0.245s] Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_zhang': AMENT_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_zhang -- -j12 -l12
+[0.291s] [100%] Built target zhang3_node
+[0.304s] Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_zhang -- -j12 -l12
+[0.321s] Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_zhang': AMENT_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jinhemu/ROS2/town_ws/build/village_zhang
+[0.329s] -- Install configuration: ""
+[0.329s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[0.329s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[0.329s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[0.329s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[0.329s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[0.329s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/share/village_zhang/package.xml
+[0.330s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_zhang/lib/village_zhang/zhang3_node
+[0.334s] Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jinhemu/ROS2/town_ws/build/village_zhang

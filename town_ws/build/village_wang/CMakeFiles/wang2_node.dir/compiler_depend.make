@@ -672,10 +672,31 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
   /opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp \
+  /home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/sell_novel.hpp \
+  /home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__struct.hpp \
+  /home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__builder.hpp \
+  /home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__traits.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h
 
+
+/usr/include/c++/11/bits/stl_queue.h:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/queue:
+
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/sell_novel.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp:
+
+/usr/include/c++/11/deque:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:
 
@@ -784,6 +805,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
+
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
@@ -934,6 +957,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
 /opt/ros/humble/include/rmw/rmw/security_options.h:
+
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__builder.hpp:
 
 /usr/include/c++/11/cerrno:
 
@@ -1580,6 +1605,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/jinhemu/ROS2/town_ws/src/villag
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/home/jinhemu/ROS2/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__struct.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
 

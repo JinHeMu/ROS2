@@ -1,0 +1,26 @@
+[0.217s] Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_wang -- -j12 -l12
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.258s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[6.697s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[7.004s] [100%] Built target wang2_node
+[7.012s] Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_wang -- -j12 -l12
+[7.032s] Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/jinhemu/ROS2/town_ws/build/village_wang
+[7.041s] -- Install configuration: ""
+[7.041s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[7.041s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[7.041s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[7.041s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[7.041s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[7.041s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[7.041s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[7.041s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[7.042s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[7.042s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[7.042s] -- Installing: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/package.dsv
+[7.042s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[7.042s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[7.042s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[7.042s] -- Up-to-date: /home/jinhemu/ROS2/town_ws/install/village_wang/share/village_wang/package.xml
+[7.042s] -- Installing: /home/jinhemu/ROS2/town_ws/install/village_wang/lib/village_wang/wang2_node
+[7.045s] -- Set runtime path of "/home/jinhemu/ROS2/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[7.047s] Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/jinhemu/ROS2/town_ws/build/village_wang

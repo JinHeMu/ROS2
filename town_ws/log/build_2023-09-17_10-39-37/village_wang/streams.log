@@ -1,0 +1,42 @@
+[0.229s] Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_wang -- -j12 -l12
+[0.272s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[2.219s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.220s]                  from [01m[K/home/jinhemu/ROS2/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[2.220s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.220s] [01m[K/home/jinhemu/ROS2/town_ws/src/village_wang/src/wang2.cpp:119:47:[m[K   required from here
+[2.220s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:204:15:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KParameterValue(const unsigned int&)[m[K’ is ambiguous
+[2.220s]   204 |       rclcpp::[01;31m[KParameterValue(default_value)[m[K,
+[2.220s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.220s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.220s]                  from [01m[K/home/jinhemu/ROS2/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[2.220s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(double)[m[K’
+[2.220s]    94 |   explicit [01;36m[KParameterValue[m[K(const double double_value);
+[2.220s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.221s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(float)[m[K’
+[2.221s]    91 |   explicit [01;36m[KParameterValue[m[K(const float double_value);
+[2.221s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.221s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:88:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(int64_t)[m[K’
+[2.221s]    88 |   explicit [01;36m[KParameterValue[m[K(const int64_t int_value);
+[2.221s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.221s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:85:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(int)[m[K’
+[2.221s]    85 |   explicit [01;36m[KParameterValue[m[K(const int int_value);
+[2.221s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.221s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:82:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(bool)[m[K’
+[2.221s]    82 |   explicit [01;36m[KParameterValue[m[K(const bool bool_value);
+[2.221s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.221s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)[m[K’
+[2.221s]    71 | class [01;36m[KParameterValue[m[K
+[2.221s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.221s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)[m[K’
+[4.389s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+[4.390s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+[4.390s] gmake: *** [Makefile:146：all] 错误 2
+[4.392s] Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/home/jinhemu/ROS2/town_ws/install/village_interfaces:/home/jinhemu/ROS2/town_ws/install/village_zhang:/home/jinhemu/ROS2/town_ws/install/village_wang:/home/jinhemu/ROS2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_wang -- -j12 -l12
