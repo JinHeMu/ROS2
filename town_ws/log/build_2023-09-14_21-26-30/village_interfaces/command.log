@@ -1,2 +1,0 @@
-Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_interfaces': /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_interfaces -- -j12 -l12
-Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_interfaces' returned '2': /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_interfaces -- -j12 -l12

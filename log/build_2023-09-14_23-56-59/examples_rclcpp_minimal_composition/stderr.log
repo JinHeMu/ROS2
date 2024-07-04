@@ -1,6 +1,0 @@
-gmake[2]: *** [CMakeFiles/composition_nodes.dir/build.make:90: CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o] 中断
-gmake[2]: *** wait: 没有子进程。 停止。
-gmake[2]: *** 正在等待未完成的任务....
-gmake[2]: *** wait: 没有子进程。 停止。
-gmake[1]: *** [CMakeFiles/Makefile2:143：CMakeFiles/composition_nodes.dir/all] 错误 2
-gmake: *** [Makefile:146: all] 中断

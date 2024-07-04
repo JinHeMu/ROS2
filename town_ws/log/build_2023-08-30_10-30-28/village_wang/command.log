@@ -1,2 +1,0 @@
-Invoking command in '/home/jinhemu/ROS2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_wang -- -j12 -l12
-Invoked command in '/home/jinhemu/ROS2/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/town_ws/build/village_wang -- -j12 -l12

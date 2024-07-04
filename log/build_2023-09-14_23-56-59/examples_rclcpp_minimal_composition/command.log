@@ -1,2 +1,0 @@
-Invoking command in '/home/jinhemu/ROS2/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/build/examples_rclcpp_minimal_composition -- -j12 -l12
-Invoked command in '/home/jinhemu/ROS2/build/examples_rclcpp_minimal_composition' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinhemu/ROS2/build/examples_rclcpp_minimal_composition -- -j12 -l12
