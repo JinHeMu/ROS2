@@ -1,0 +1,9 @@
+# 忽略vscode文件夹之内的内容
+.vscode/ 
+
+# 忽略项目根目录和所有子目录中的 build 文件夹
+**/build/
+
+**/install/
+**/log/
+**/build/
