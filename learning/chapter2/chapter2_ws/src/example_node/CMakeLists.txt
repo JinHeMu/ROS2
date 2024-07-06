@@ -30,3 +30,12 @@ install(TARGETS
   node_01
   DESTINATION lib/${PROJECT_NAME}
 )
+
+
+add_executable(node_02 src/node_02.cpp)
+ament_target_dependencies(node_02 rclcpp)
+
+install(TARGETS
+  node_02
+  DESTINATION lib/${PROJECT_NAME}
+)
