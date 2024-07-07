@@ -178,3 +178,16 @@ void timer_callback()
     }
 ```
 
+## 6.服务
+
+服务是双向的,而话题主要是单向的.
+
+1. 创建功能包和节点,导入消息接口,修改CMakeLists.txt 和依赖
+2. 创建服务端
+3. 创建客户端
+
+## 文件目录
+
+1. 工作空间	ros2_workplace
+2. 包储存空间    ros2_workplace/src
+3. 编译在工作空间下进行colcon build

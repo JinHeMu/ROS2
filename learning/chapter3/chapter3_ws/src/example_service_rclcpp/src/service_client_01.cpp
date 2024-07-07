@@ -55,6 +55,10 @@ int main(int argc, char const *argv[])
 {
     rclcpp::init(argc, argv);
     auto node = std::make_shared<ServiceClient01>("service_client_01");
+
+
+    node->send_request(10, 20);
+
     rclcpp::spin(node);
     rclcpp::shutdown();
 
