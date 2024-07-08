@@ -1,5 +1,11 @@
 # ROS2学习记录
 
+## 文件目录
+
+1. 工作空间	ros2_workplace
+2. 包储存空间    ros2_workplace/src
+3. 编译在工作空间下进行colcon build
+
 ## 1.节点
 
 ROS2中每一个节点也是只负责一个单独的模块化的功能（比如一个节点负责控制车轮转动，一个节点负责从激光雷达获取数据、一个节点负责处理激光雷达的数据、一个节点负责定位等等）
@@ -98,9 +104,7 @@ install(TARGETS
 
 可以让cpp和py进行通讯
 
-**话题的实现**
-
-### **发布者**
+**发布者**
 
 1. 创建节点
 2. 编写发布者，想要创建发布者，只需要调用`node`的成员函数`create_publisher`并传入对应的参数即可。（看API）
@@ -154,7 +158,7 @@ void timer_callback()
     rclcpp::TimerBase::SharedPtr timer_;
 ```
 
-### 订阅者
+**订阅者**
 
 1. 创建节点,修改CMakeLists.txt,修改依赖,导入消息包
 2. 创建订阅者,设置回调函数
@@ -186,8 +190,36 @@ void timer_callback()
 2. 创建服务端
 3. 创建客户端
 
-## 文件目录
 
-1. 工作空间	ros2_workplace
-2. 包储存空间    ros2_workplace/src
-3. 编译在工作空间下进行colcon build
+
+## 7.信息接口
+
+1. 创建功能包	
+   `ros2 pkg create example_ros2_interfaces --build-type ament_cmake --dependencies rosidl_default_generators geometry_msgs`
+
+2. 接着创建文件夹和文件，注意话题接口放到`msg`文件夹下，以`.msg`结尾。服务接口放到`srv`文件夹下，以`srv`结尾。
+
+```
+.
+├── CMakeLists.txt
+├── msg
+│   ├── RobotPose.msg
+│   └── RobotStatus.msg
+├── package.xml
+└── srv
+    └── MoveRobot.srv
+
+2 directories, 5 files
+```
+
+3. 修改CMakeLists.txt
+
+`rosidl_generate_interfaces(${PROJECT_NAME}  "msg/RobotPose.msg"  "msg/RobotStatus.msg"  "srv/MoveRobot.srv"  DEPENDENCIES geometry_msgs )`
+
+4. 修改package.xml
+
+`<member_of_group>rosidl_interface_packages</member_of_group>` 
+
+5. 保存并编译
+6. 在节点中导入头文件
+   `#include "example_ros2_interfaces/srv/move_robot.hpp" #include "example_ros2_interfaces/msg/robot_status.hpp"`

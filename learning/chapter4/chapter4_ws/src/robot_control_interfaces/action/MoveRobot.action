@@ -1,0 +1,11 @@
+# goal1:the distance robot should move.
+float32 distance 
+---
+# The finnal position
+float32 pose
+---
+# Feedback position and status
+float32 pose
+uint32  status
+uint32  STATUS_MOVEING = 3
+uint32  STATUS_STOP = 4
