@@ -32,9 +32,12 @@ def generate_launch_description():
         name='rviz2',
         output='screen',
         )
+    
+        
+    
 
     ld.add_action(robot_state_publisher_node)
-    ld.add_action(joint_state_publisher_node)
+    #ld.add_action(joint_state_publisher_node)
     ld.add_action(rviz2_node)
 
     return ld
