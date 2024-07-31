@@ -1,12 +1,12 @@
-# ROS2学习记录
 
-## 文件目录
+
+# 文件目录
 
 1. 工作空间	ros2_workplace
 2. 包储存空间    ros2_workplace/src
 3. 编译在工作空间下进行colcon build
 
-## 1.节点
+# 1.节点
 
 ROS2中每一个节点也是只负责一个单独的模块化的功能（比如一个节点负责控制车轮转动，一个节点负责从激光雷达获取数据、一个节点负责处理激光雷达的数据、一个节点负责定位等等）
 
@@ -14,7 +14,7 @@ ROS2中每一个节点也是只负责一个单独的模块化的功能（比如�
 
 话题,服务,动作,参数
 
-## 2.工作空间
+# 2.工作空间
 
 
 工作空间是包含若干个功能包的目录，一开始大家把工作空间理解成一个文件夹就行了。这个文件夹包含下有`src`
@@ -27,16 +27,16 @@ ROS2中每一个节点也是只负责一个单独的模块化的功能（比如�
 - `cmake`，适用于C++
 - `ament_cmake`，适用于C++程序,是cmake的增强版
 
-## 3. Colcon
+# 3. Colcon
 
 
 Colcon 是一个用于构建和管理多包项目的命令行工具，广泛应用于机器人操作系统（ROS）2和其他使用多包构建系统的项目。它提供了一个统一的界面来构建、测试和安装多个软件包，简化了复杂项目的管理和开发流程。
 
-## 4. RCLCPP编写节点
+# 4. RCLCPP编写节点
 
 1. 创建工作空间和功能包
 
-   ```
+   ```bash
    mkdir -p chapt2_ws/src
    cd chapt2_ws/src
    ros2 pkg create example_cpp --build-type ament_cmake --dependencies rclcpp
@@ -46,7 +46,7 @@ Colcon 是一个用于构建和管理多包项目的命令行工具，广泛应�
    - --build-type 用来指定该包的编译类型，一共有三个可选项`ament_python`、`ament_cmake`、`cmake`
    - --dependencies 指的是这个功能包的依赖，ros2的C++客户端接口`rclcpp`
 
-   ```
+   ```bash
    .
    └── src
        └── example_cpp
@@ -94,7 +94,7 @@ install(TARGETS
 )
 ```
 
-## 5.话题
+# 5.话题
 
 话题是ROS2中最常用的通信方式之一，话题通信采取的是订阅发布模型
 
@@ -112,50 +112,91 @@ install(TARGETS
 
 ```cmake
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)# 寻找std_msgs
+find_package(std_msgs REQUIRED)# 寻找std_msgs!!!
 
 add_executable(topic_publisher_01 src/topic_publisher_01.cpp)
-ament_target_dependencies(topic_publisher_01 rclcpp std_msgs)# 添加依赖
+ament_target_dependencies(topic_publisher_01 rclcpp std_msgs)# 添加依赖!!!
 ```
 
 ```xml
 <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>rclcpp</depend>
-  <depend>std_msgs</depend> # 添加依赖 <test_depend>ament_lint_auto</test_depend> <test_depend>ament_lint_common</test_depend>
+  <depend>std_msgs</depend>  
+<test_depend>ament_lint_auto</test_depend> <test_depend>ament_lint_common</test_depend>
 ```
 
 ```cpp
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"//包含头文件
-
 class TopicPublisher01 : public rclcpp::Node
+{
+public:
+    // 构造函数,有一个参数为节点名称,初始化类
+    TopicPublisher01(std::string name) : Node(name)
+    {
+        RCLCPP_INFO(this->get_logger(), "%s节点已经启动.", name.c_str());
+    }
+
+private:
+    // 声明节点
+};
 ```
 
 4. 创建发布者
 
 ```cpp
-pub = this->create_publisher<std_msgs::msg::string>("command", 10);
+class TopicPublisher01 : public rclcpp::Node
+{
+public:
+    TopicPublisher01(std::string name) : Node(name)
+    {
+        RCLCPP_INFO(this->get_logger(), "%s节点已经启动.", name.c_str());
+        // 创建发布者
+        command_publisher = this->create_publisher<std_msgs::msg::String>("command", 10);
+    }
+private:
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr command_publisher;//定义发布者
 
-rclcpp::Publisher<std_msgs::String>::SharedPtr pub;
+};
 ```
 
 5. 使用定时器来发布代码
 
 ```cpp
-timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&TopicPublisher01::timer_callback, this));
+class TopicPublisher01 : public rclcpp::Node
+{
+public:
+    TopicPublisher01(std::string name) : Node(name)
+    {
+        RCLCPP_INFO(this->get_logger(), "%s节点已经启动.", name.c_str());
+        // 创建发布者
+        command_publisher = this->create_publisher<std_msgs::msg::String>("command", 10);
+        // 创建定时器 500ms为周期
+        /*
+        
+        std::bind(&TopicPublisher01::timer_callback, this) 将 TopicPublisher01 类的成员函数 timer_callback 与当前对象的 this 指针绑定在一起。
+        返回的结果是一个可调用对象，这个对象在被调用时会执行 this 对象的 timer_callback 成员函数。
+        
+        */
+        timer = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&TopicPublisher01::timer_callback, this));
+      
+    }
+private:
 
-void timer_callback()
+    void timer_callback()
     {
         // 创建消息
         std_msgs::msg::String message;
         message.data = "forward";
         // 日志打印
         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
-        // 发布消息
-        command_publisher_->publish(message);
+        command_publisher->publish(message);
     }
-    // 声名定时器指针
-    rclcpp::TimerBase::SharedPtr timer_;
+    
+    rclcpp::TimerBase::SharedPtr timer;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr command_publisher;
+
+};
 ```
 
 **订阅者**
@@ -182,7 +223,7 @@ void timer_callback()
     }
 ```
 
-## 6.服务
+# 6.服务
 
 服务是双向的,而话题主要是单向的.
 
@@ -192,7 +233,7 @@ void timer_callback()
 
 
 
-## 7.信息接口
+# 7.信息接口
 
 1. 创建功能包	
    `ros2 pkg create example_ros2_interfaces --build-type ament_cmake --dependencies rosidl_default_generators geometry_msgs`

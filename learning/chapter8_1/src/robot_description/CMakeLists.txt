@@ -7,6 +7,9 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)# 寻找std_msgs
+find_package(sensor_msgs REQUIRED)# 寻找std_msgs
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -24,6 +27,20 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+
+add_executable(rotate_wheel src/rotate_wheel.cpp)
+ament_target_dependencies(rotate_wheel 
+rclcpp
+std_msgs
+sensor_msgs
+)
+
+
+install(TARGETS
+  rotate_wheel
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 
 install(DIRECTORY launch
